@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dice_image1"
+            android:layout_width="141dp"
+            android:layout_height="168dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/dice_1" />
+
+        <ImageView
+            android:id="@+id/dice_image2"
+            android:layout_width="135dp"
+            android:layout_height="168dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/dice_1" />
+
+        <ImageView
+            android:id="@+id/dice_image3"
+            android:layout_width="128dp"
+            android:layout_height="168dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/dice_1" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ket qua"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/roll_label" />
+
+
+</LinearLayout>
